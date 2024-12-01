@@ -6,7 +6,7 @@ canvas.height = window.innerHeight;
 const particles = [];
 const floatingParticles = [];
 const texts = [
-  { text: "GDG", size: 150 },
+  { text: "Hazem AlJohari", size: 150 },
   { text: "Github Session", size: 80 },
 ];
 
@@ -74,7 +74,7 @@ class FloatingParticle {
   draw() {
     ctx.fillStyle = "rgba(255, 255, 255, 0.5)";
     ctx.beginPath();
-    ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+    ctx.arc(this.x, this.y, this.size, 5, Math.PI * 2);
     ctx.fill();
   }
 }
